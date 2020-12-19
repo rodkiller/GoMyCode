@@ -4,27 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <head>
-        <nav>
-            <h1>Portfolio</h1>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#About">About </a></li>
-                <li><a href="#Work">Work</a></li>
-                <li><a href="#Resume">Resume</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-        </nav>
-    </head>
+    <div id="page1">
+        <head>
+            
+            <nav class="nav">
+                <div id="tophead">
+                <img src="./zozor_logo.png "  alt="" style="padding-top: 5px;"><h1>Welcome To My Site</h1>
+                </div>
+                <div  id="head">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#About">About </a></li>
+                    <li><a href="#Work">Work</a></li>
+                    <li><a href="#Resume">Resume</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+                </div>
+            </nav>
+            
+        </head>
 
 
-    <section id="home">
-        <H1>Welcome To My Site</H1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, facere hic ut tenetur iusto sunt necessitatibus laboriosam iste veritatis officiis nulla libero dolorem quam. Temporibus consequuntur inventore doloremque quaerat eos.</p>
-    </section>
-
+        <section id="home">
+            <H1>Welcome To My Site</H1>   
+        </section>
+    </div>
     <section id="About">
         <H1>About</H1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda possimus est vel explicabo similique error dolorum laboriosam quos, quasi deleniti, eius qui placeat quisquam excepturi sequi sunt fugiat atque?</p>
@@ -42,21 +49,24 @@
 
     <section id="Project">
         <h1>Technologie</h1>
-        <article id="projet1">
-            <h3>HTML</h1>
-            <img src="https://img.icons8.com/color/240/000000/html-5.png"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consectetur adipisci consequuntur, inventore doloribus praesentium laboriosam quidem molestiae voluptatibus, delectus libero. Quidem est tempore autem quo doloribus deserunt dolorem consequuntur!</p>
-        </article>
-        <article id="projet2">
-            <h3>CSS</h1>
-            <img src="https://img.icons8.com/color/240/000000/javascript.png"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae temporibus quae voluptatem ipsa cum aliquid illum. Iusto magnam provident ut, beatae, alias libero dolor ad explicabo placeat, iure labore nihil?</p>
-        </article>
-        <article id="projet3">
-            <h3>javascript</h1>
-            <img src="https://img.icons8.com/color/240/000000/css3.png"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus molestiae natus aliquid numquam quo molestias expedita ad iusto? Architecto voluptatum nesciunt ad eveniet alias sint facere accusamus dolor deserunt.</p>
-        </article>
+        <div >
+            <article id="projet1" class="projectsection">
+                <h3>HTML</h1>
+                <img src="https://img.icons8.com/color/240/000000/html-5.png"/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consectetur adipisci consequuntur, inventore doloribus praesentium laboriosam quidem molestiae voluptatibus, delectus libero. Quidem est tempore autem quo doloribus deserunt dolorem consequuntur!</p>
+            </article>
+            
+            <article id="projet2" class="projectsection">
+                <h3>CSS</h1>
+                <img src="https://img.icons8.com/color/240/000000/javascript.png"/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae temporibus quae voluptatem ipsa cum aliquid illum. Iusto magnam provident ut, beatae, alias libero dolor ad explicabo placeat, iure labore nihil?</p>
+            </article>
+            <article id="projet3" class="projectsection">
+                <h3>javascript</h1>
+                <img src="https://img.icons8.com/color/240/000000/css3.png"/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus molestiae natus aliquid numquam quo molestias expedita ad iusto? Architecto voluptatum nesciunt ad eveniet alias sint facere accusamus dolor deserunt.</p>
+            </article>
+        </div>
     </section>
 
     <section id="Contact">
@@ -71,24 +81,22 @@
         </form>
     </section>
 
-    <footer>
-        <div>
-            <p>
-                <b></b><a href="#Home">Home</a></b> | 
+    <footer class="footer">
+        <div class="footer1">
+                <a href="#Home">Home</a></b> | 
                 <a href="#About">About</a> |
                 <a href="#Work">Work</a> |
                 <a href="#Resume">Resume</a> |
                 <a href="#Contact">Contact</a>
-            </p>
+           
         </div>
-        
-        <div class="widget-body">
-            <p class="follow-me-icons">
+        <div class="footer2">
+            
                 <a href=""><img src="https://img.icons8.com/nolan/40/facebook.png"/></a>
                 <a href=""><img src="https://img.icons8.com/nolan/40/twitter.png"/></a>
                 <a href=""><img src="https://img.icons8.com/nolan/40/linkedin.png"/></a>
                 <a href=""><img src="https://img.icons8.com/nolan/40/skype.png"/></a>
-            </p>	
+            	
         </div>
     </footer>
 </body>
